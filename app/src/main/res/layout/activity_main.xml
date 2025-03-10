@@ -1,0 +1,74 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/main">
+
+    <TextView
+        android:id="@id/lbDBConnectionStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "@string/dbConnectionStatus"
+        android:textColor="#4CAF50"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/labelTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:text = "@string/labelTitle"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <requestFocus/>
+
+    <TextView
+        android:id="@+id/labelUsername"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/labelUsername" />
+
+    <EditText
+        android:id="@+id/fieldUsername"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"/>
+    <requestFocus/>
+
+    <Space android:layout_height="10dp" android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/labelPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/labelPassword" />
+
+    <Space android:layout_height="10dp" android:layout_width="match_parent"/>
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:inputType="textPassword" />
+
+    <Space android:layout_height="20dp" android:layout_width="match_parent"/>
+
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/buttonLogin"/>
+
+    <Space android:layout_height="10dp" android:layout_width="match_parent"/>
+
+    <TextView
+        android:id="@+id/labelForgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/labelForgetPassword"/>
+
+</LinearLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exercícios</string>
+    <string name="labelTitle">ACESSO</string>
+    <string name="labelUsername">Usuário</string>
+    <string name="labelPassword">Senha</string>
+    <string name="labelForgetPassword">Esqueceu a senha?</string>
+    <string name="buttonLogin">Entrar!</string>
+    <string name="dbConnectionStatus">conexão</string>
+
+</resources>
